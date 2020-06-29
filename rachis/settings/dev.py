@@ -8,7 +8,10 @@ from .defaults import *
 dotenv_path = join(dirname(__file__), ".env")
 load_dotenv(dotenv_path)
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = [
+    "127.0.0.1",
+    "localhost"
+]
 
 DATABASES = {
     "default": {

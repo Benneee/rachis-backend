@@ -1,8 +1,7 @@
 import os
 
-environment = os.getenv("ENV", "development")
+environment = os.getenv("ENV", "dev")
 
-if environment == "development":
-    from settings.development import *
-
+if environment == "dev":
+    from rachis.settings.dev import *  
     
