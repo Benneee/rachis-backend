@@ -5,6 +5,7 @@ verify_ssl = true
 
 [dev-packages]
 black = "*"
+model-bakery = "*"
 
 [packages]
 django = "*"
@@ -12,6 +13,10 @@ djangorestframework = "*"
 django-cors-headers = "*"
 python-dotenv = "*"
 psycopg2 = "*"
+pillow = "*"
+pytest = "*"
+django-nose = "*"
+coverage = "*"
 
 [requires]
 python_version = "3.7"
