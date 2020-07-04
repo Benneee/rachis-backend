@@ -9,3 +9,23 @@ cover/
 media/
 
 settings/__pycache__
+
+# Distribution / packaging
+.Python
+venv/
+ENV/
+.vscode
+settings.json
+
+# python_ dotenv
+.env_sample
+.envlocal
+
+# Unit test / coverage reports
+.DS_Store
+
+.idea/
+#.env
+
+# logs
+logs/
